@@ -1,0 +1,209 @@
+2020-05-27 10:39:02 SpringBootTestContextBootstrapper [INFO] Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.centurylink.microservice.movieinfo.MovieInfoService.MovieInfoServiceApplicationTests], using SpringBootContextLoader
+2020-05-27 10:39:02 AbstractContextLoader [INFO] Could not detect default resource locations for test class [com.centurylink.microservice.movieinfo.MovieInfoService.MovieInfoServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-05-27 10:39:02 AnnotationConfigContextLoaderUtils [INFO] Could not detect default configuration classes for test class [com.centurylink.microservice.movieinfo.MovieInfoService.MovieInfoServiceApplicationTests]: MovieInfoServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-05-27 10:39:02 SpringBootTestContextBootstrapper [INFO] Found @SpringBootConfiguration com.centurylink.microservice.movieinfo.MovieInfoService.MovieInfoServiceApplication for test class com.centurylink.microservice.movieinfo.MovieInfoService.MovieInfoServiceApplicationTests
+2020-05-27 10:39:02 SpringBootTestContextBootstrapper [INFO] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-05-27 10:39:02 SpringBootTestContextBootstrapper [INFO] Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@673fdbce, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5965d37, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@7a5ceedd, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4201c465, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5b799640, org.springframework.test.context.event.EventPublishingTestExecutionListener@6cb107fd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@710636b0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3de8f619, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2ab4bc72, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4e5ed836, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@eadd4fb, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@740fb309]
+2020-05-27 10:39:05 MovieInfoServiceApplicationTests [INFO] No active profile set, falling back to default profiles: default
+2020-05-27 10:39:06 GenericScope [INFO] BeanFactory id=d48df225-c32f-32f2-9a3d-b702c966b456
+2020-05-27 10:39:07 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:07 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:07 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:07 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:08 ThreadPoolTaskExecutor [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:39:10 BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [WARN] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-27 10:39:10 InstanceInfoFactory [INFO] Setting initial instance status as: STARTING
+2020-05-27 10:39:10 DiscoveryClient [INFO] Initializing Eureka in region us-east-1
+2020-05-27 10:39:12 DiscoveryJerseyProvider [INFO] Using JSON encoding codec LegacyJacksonJson
+2020-05-27 10:39:12 DiscoveryJerseyProvider [INFO] Using JSON decoding codec LegacyJacksonJson
+2020-05-27 10:39:12 DiscoveryJerseyProvider [INFO] Using XML encoding codec XStreamXml
+2020-05-27 10:39:12 DiscoveryJerseyProvider [INFO] Using XML decoding codec XStreamXml
+2020-05-27 10:39:13 ConfigClusterResolver [INFO] Resolving eureka endpoints via configuration
+2020-05-27 10:39:13 DiscoveryClient [INFO] Disable delta property : false
+2020-05-27 10:39:13 DiscoveryClient [INFO] Single vip registry refresh property : null
+2020-05-27 10:39:13 DiscoveryClient [INFO] Force full registry fetch : false
+2020-05-27 10:39:13 DiscoveryClient [INFO] Application is null : false
+2020-05-27 10:39:13 DiscoveryClient [INFO] Registered Applications size is zero : true
+2020-05-27 10:39:13 DiscoveryClient [INFO] Application version is -1: true
+2020-05-27 10:39:13 DiscoveryClient [INFO] Getting all instance registry info from the eureka server
+2020-05-27 10:39:14 DiscoveryClient [INFO] The response status is 200
+2020-05-27 10:39:14 DiscoveryClient [INFO] Starting heartbeat executor: renew interval is: 30
+2020-05-27 10:39:14 InstanceInfoReplicator [INFO] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-27 10:39:14 DiscoveryClient [INFO] Discovery Client initialized at timestamp 1590556154290 with initial instances count: 1
+2020-05-27 10:39:14 EurekaServiceRegistry [INFO] Registering application MOVIE-INFO-SERVICE with eureka with status UP
+2020-05-27 10:39:14 DiscoveryClient [INFO] Saw local status change event StatusChangeEvent [timestamp=1590556154307, current=UP, previous=STARTING]
+2020-05-27 10:39:14 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:39:14 MovieInfoServiceApplicationTests [INFO] Started MovieInfoServiceApplicationTests in 11.315 seconds (JVM running for 14.479)
+2020-05-27 10:39:14 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:39:15 EurekaServiceRegistry [INFO] Unregistering application MOVIE-INFO-SERVICE with eureka with status DOWN
+2020-05-27 10:39:15 DiscoveryClient [WARN] Saw local status change event StatusChangeEvent [timestamp=1590556155201, current=DOWN, previous=UP]
+2020-05-27 10:39:15 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:39:15 ThreadPoolTaskExecutor [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:39:15 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:39:15 DiscoveryClient [INFO] Shutting down DiscoveryClient ...
+2020-05-27 10:39:18 MovieInfoServiceApplication [INFO] No active profile set, falling back to default profiles: default
+2020-05-27 10:39:18 DiscoveryClient [INFO] Unregistering ...
+2020-05-27 10:39:18 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - deregister  status: 200
+2020-05-27 10:39:18 DiscoveryClient [INFO] Completed shut down of DiscoveryClient
+2020-05-27 10:39:19 GenericScope [INFO] BeanFactory id=e63871b9-e546-39fe-b109-ea11683bc98a
+2020-05-27 10:39:21 TomcatWebServer [INFO] Tomcat initialized with port(s): 8066 (http)
+2020-05-27 10:39:22 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 4112 ms
+2020-05-27 10:39:22 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:22 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:22 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:22 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:23 ThreadPoolTaskExecutor [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:39:24 BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [WARN] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-27 10:39:24 InstanceInfoFactory [INFO] Setting initial instance status as: STARTING
+2020-05-27 10:39:24 DiscoveryClient [INFO] Initializing Eureka in region us-east-1
+2020-05-27 10:39:25 DiscoveryJerseyProvider [INFO] Using JSON encoding codec LegacyJacksonJson
+2020-05-27 10:39:25 DiscoveryJerseyProvider [INFO] Using JSON decoding codec LegacyJacksonJson
+2020-05-27 10:39:25 DiscoveryJerseyProvider [INFO] Using XML encoding codec XStreamXml
+2020-05-27 10:39:25 DiscoveryJerseyProvider [INFO] Using XML decoding codec XStreamXml
+2020-05-27 10:39:26 ConfigClusterResolver [INFO] Resolving eureka endpoints via configuration
+2020-05-27 10:39:26 DiscoveryClient [INFO] Disable delta property : false
+2020-05-27 10:39:26 DiscoveryClient [INFO] Single vip registry refresh property : null
+2020-05-27 10:39:26 DiscoveryClient [INFO] Force full registry fetch : false
+2020-05-27 10:39:26 DiscoveryClient [INFO] Application is null : false
+2020-05-27 10:39:26 DiscoveryClient [INFO] Registered Applications size is zero : true
+2020-05-27 10:39:26 DiscoveryClient [INFO] Application version is -1: true
+2020-05-27 10:39:26 DiscoveryClient [INFO] Getting all instance registry info from the eureka server
+2020-05-27 10:39:26 DiscoveryClient [INFO] The response status is 200
+2020-05-27 10:39:26 DiscoveryClient [INFO] Starting heartbeat executor: renew interval is: 30
+2020-05-27 10:39:26 InstanceInfoReplicator [INFO] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-27 10:39:26 DiscoveryClient [INFO] Discovery Client initialized at timestamp 1590556166593 with initial instances count: 1
+2020-05-27 10:39:26 EurekaServiceRegistry [INFO] Registering application MOVIE-INFO-SERVICE with eureka with status UP
+2020-05-27 10:39:26 DiscoveryClient [INFO] Saw local status change event StatusChangeEvent [timestamp=1590556166597, current=UP, previous=STARTING]
+2020-05-27 10:39:26 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:39:26 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:39:26 TomcatWebServer [INFO] Tomcat started on port(s): 8066 (http) with context path ''
+2020-05-27 10:39:26 EurekaAutoServiceRegistration [INFO] Updating port to 8066
+2020-05-27 10:39:26 MovieInfoServiceApplication [INFO] Started MovieInfoServiceApplication in 10.947 seconds (JVM running for 13.194)
+2020-05-27 10:39:42 MovieInfoServiceApplication [INFO] No active profile set, falling back to default profiles: default
+2020-05-27 10:39:44 GenericScope [INFO] BeanFactory id=e63871b9-e546-39fe-b109-ea11683bc98a
+2020-05-27 10:39:45 TomcatWebServer [INFO] Tomcat initialized with port(s): 8066 (http)
+2020-05-27 10:39:45 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 2957 ms
+2020-05-27 10:39:46 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:46 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:46 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:39:46 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:39:46 ThreadPoolTaskExecutor [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:39:47 BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [WARN] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-27 10:39:47 InstanceInfoFactory [INFO] Setting initial instance status as: STARTING
+2020-05-27 10:39:48 DiscoveryClient [INFO] Initializing Eureka in region us-east-1
+2020-05-27 10:39:48 DiscoveryJerseyProvider [INFO] Using JSON encoding codec LegacyJacksonJson
+2020-05-27 10:39:48 DiscoveryJerseyProvider [INFO] Using JSON decoding codec LegacyJacksonJson
+2020-05-27 10:39:48 DiscoveryJerseyProvider [INFO] Using XML encoding codec XStreamXml
+2020-05-27 10:39:48 DiscoveryJerseyProvider [INFO] Using XML decoding codec XStreamXml
+2020-05-27 10:39:49 ConfigClusterResolver [INFO] Resolving eureka endpoints via configuration
+2020-05-27 10:39:49 DiscoveryClient [INFO] Disable delta property : false
+2020-05-27 10:39:49 DiscoveryClient [INFO] Single vip registry refresh property : null
+2020-05-27 10:39:49 DiscoveryClient [INFO] Force full registry fetch : false
+2020-05-27 10:39:49 DiscoveryClient [INFO] Application is null : false
+2020-05-27 10:39:49 DiscoveryClient [INFO] Registered Applications size is zero : true
+2020-05-27 10:39:49 DiscoveryClient [INFO] Application version is -1: true
+2020-05-27 10:39:49 DiscoveryClient [INFO] Getting all instance registry info from the eureka server
+2020-05-27 10:39:49 DiscoveryClient [INFO] The response status is 200
+2020-05-27 10:39:49 DiscoveryClient [INFO] Starting heartbeat executor: renew interval is: 30
+2020-05-27 10:39:49 InstanceInfoReplicator [INFO] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-27 10:39:49 DiscoveryClient [INFO] Discovery Client initialized at timestamp 1590556189830 with initial instances count: 2
+2020-05-27 10:39:49 EurekaServiceRegistry [INFO] Registering application MOVIE-INFO-SERVICE with eureka with status UP
+2020-05-27 10:39:49 DiscoveryClient [INFO] Saw local status change event StatusChangeEvent [timestamp=1590556189834, current=UP, previous=STARTING]
+2020-05-27 10:39:49 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:39:49 AnnotationConfigServletWebServerApplicationContext [WARN] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8066 is already in use
+2020-05-27 10:39:49 ThreadPoolTaskExecutor [INFO] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:39:49 DiscoveryClient [INFO] Shutting down DiscoveryClient ...
+2020-05-27 10:39:49 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:39:49 DiscoveryClient [INFO] Unregistering ...
+2020-05-27 10:39:49 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - deregister  status: 200
+2020-05-27 10:39:49 DiscoveryClient [INFO] Completed shut down of DiscoveryClient
+2020-05-27 10:39:49 ConditionEvaluationReportLoggingListener [INFO] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-27 10:39:49 LoggingFailureAnalysisReporter [ERROR] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8066 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8066 or configure this application to listen on another port.
+
+2020-05-27 10:39:56 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - Re-registering apps/MOVIE-INFO-SERVICE
+2020-05-27 10:39:56 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:39:56 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:40:18 MovieInfoServiceApplication [INFO] No active profile set, falling back to default profiles: default
+2020-05-27 10:40:19 GenericScope [INFO] BeanFactory id=e63871b9-e546-39fe-b109-ea11683bc98a
+2020-05-27 10:40:21 TomcatWebServer [INFO] Tomcat initialized with port(s): 8066 (http)
+2020-05-27 10:40:21 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 3223 ms
+2020-05-27 10:40:21 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:40:21 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:40:21 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:40:21 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:40:22 ThreadPoolTaskExecutor [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:40:23 BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [WARN] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-27 10:40:23 InstanceInfoFactory [INFO] Setting initial instance status as: STARTING
+2020-05-27 10:40:23 DiscoveryClient [INFO] Initializing Eureka in region us-east-1
+2020-05-27 10:40:24 DiscoveryJerseyProvider [INFO] Using JSON encoding codec LegacyJacksonJson
+2020-05-27 10:40:24 DiscoveryJerseyProvider [INFO] Using JSON decoding codec LegacyJacksonJson
+2020-05-27 10:40:25 DiscoveryJerseyProvider [INFO] Using XML encoding codec XStreamXml
+2020-05-27 10:40:25 DiscoveryJerseyProvider [INFO] Using XML decoding codec XStreamXml
+2020-05-27 10:40:25 ConfigClusterResolver [INFO] Resolving eureka endpoints via configuration
+2020-05-27 10:40:25 DiscoveryClient [INFO] Disable delta property : false
+2020-05-27 10:40:25 DiscoveryClient [INFO] Single vip registry refresh property : null
+2020-05-27 10:40:25 DiscoveryClient [INFO] Force full registry fetch : false
+2020-05-27 10:40:25 DiscoveryClient [INFO] Application is null : false
+2020-05-27 10:40:25 DiscoveryClient [INFO] Registered Applications size is zero : true
+2020-05-27 10:40:25 DiscoveryClient [INFO] Application version is -1: true
+2020-05-27 10:40:25 DiscoveryClient [INFO] Getting all instance registry info from the eureka server
+2020-05-27 10:40:26 DiscoveryClient [INFO] The response status is 200
+2020-05-27 10:40:26 DiscoveryClient [INFO] Starting heartbeat executor: renew interval is: 30
+2020-05-27 10:40:26 InstanceInfoReplicator [INFO] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-27 10:40:26 DiscoveryClient [INFO] Discovery Client initialized at timestamp 1590556226195 with initial instances count: 2
+2020-05-27 10:40:26 EurekaServiceRegistry [INFO] Registering application MOVIE-INFO-SERVICE with eureka with status UP
+2020-05-27 10:40:26 DiscoveryClient [INFO] Saw local status change event StatusChangeEvent [timestamp=1590556226198, current=UP, previous=STARTING]
+2020-05-27 10:40:26 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:40:26 TomcatWebServer [INFO] Tomcat started on port(s): 8066 (http) with context path ''
+2020-05-27 10:40:26 EurekaAutoServiceRegistration [INFO] Updating port to 8066
+2020-05-27 10:40:26 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:40:26 MovieInfoServiceApplication [INFO] Started MovieInfoServiceApplication in 10.155 seconds (JVM running for 11.616)
+2020-05-27 10:40:42 MovieInfoServiceApplication [INFO] No active profile set, falling back to default profiles: default
+2020-05-27 10:40:44 GenericScope [INFO] BeanFactory id=e63871b9-e546-39fe-b109-ea11683bc98a
+2020-05-27 10:40:45 TomcatWebServer [INFO] Tomcat initialized with port(s): 8066 (http)
+2020-05-27 10:40:46 ContextLoader [INFO] Root WebApplicationContext: initialization completed in 3254 ms
+2020-05-27 10:40:46 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:40:46 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:40:46 URLConfigurationSource [WARN] No URLs will be polled as dynamic configuration sources.
+2020-05-27 10:40:46 URLConfigurationSource [INFO] To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2020-05-27 10:40:46 ThreadPoolTaskExecutor [INFO] Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-27 10:40:48 BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [WARN] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-05-27 10:40:48 InstanceInfoFactory [INFO] Setting initial instance status as: STARTING
+2020-05-27 10:40:48 DiscoveryClient [INFO] Initializing Eureka in region us-east-1
+2020-05-27 10:40:49 DiscoveryJerseyProvider [INFO] Using JSON encoding codec LegacyJacksonJson
+2020-05-27 10:40:49 DiscoveryJerseyProvider [INFO] Using JSON decoding codec LegacyJacksonJson
+2020-05-27 10:40:49 DiscoveryJerseyProvider [INFO] Using XML encoding codec XStreamXml
+2020-05-27 10:40:49 DiscoveryJerseyProvider [INFO] Using XML decoding codec XStreamXml
+2020-05-27 10:40:49 ConfigClusterResolver [INFO] Resolving eureka endpoints via configuration
+2020-05-27 10:40:50 DiscoveryClient [INFO] Disable delta property : false
+2020-05-27 10:40:50 DiscoveryClient [INFO] Single vip registry refresh property : null
+2020-05-27 10:40:50 DiscoveryClient [INFO] Force full registry fetch : false
+2020-05-27 10:40:50 DiscoveryClient [INFO] Application is null : false
+2020-05-27 10:40:50 DiscoveryClient [INFO] Registered Applications size is zero : true
+2020-05-27 10:40:50 DiscoveryClient [INFO] Application version is -1: true
+2020-05-27 10:40:50 DiscoveryClient [INFO] Getting all instance registry info from the eureka server
+2020-05-27 10:40:50 DiscoveryClient [INFO] The response status is 200
+2020-05-27 10:40:50 DiscoveryClient [INFO] Starting heartbeat executor: renew interval is: 30
+2020-05-27 10:40:50 InstanceInfoReplicator [INFO] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2020-05-27 10:40:50 DiscoveryClient [INFO] Discovery Client initialized at timestamp 1590556250411 with initial instances count: 2
+2020-05-27 10:40:50 EurekaServiceRegistry [INFO] Registering application MOVIE-INFO-SERVICE with eureka with status UP
+2020-05-27 10:40:50 DiscoveryClient [INFO] Saw local status change event StatusChangeEvent [timestamp=1590556250414, current=UP, previous=STARTING]
+2020-05-27 10:40:50 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066: registering service...
+2020-05-27 10:40:50 TomcatWebServer [INFO] Tomcat started on port(s): 8066 (http) with context path ''
+2020-05-27 10:40:50 EurekaAutoServiceRegistration [INFO] Updating port to 8066
+2020-05-27 10:40:50 DiscoveryClient [INFO] DiscoveryClient_MOVIE-INFO-SERVICE/XVMXDODCGNRL510.ctl.intranet:movie-info-service:8066 - registration status: 204
+2020-05-27 10:40:50 MovieInfoServiceApplication [INFO] Started MovieInfoServiceApplication in 9.682 seconds (JVM running for 11.028)
