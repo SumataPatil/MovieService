@@ -15,7 +15,7 @@ public class MovieInfo implements Serializable{
 	public MovieInfo(int movieId, String name) {
 		super();
 		this.movieId = movieId;
-		this.name = name;
+		this.name = name    ;
 	}
 	public int getMovieId() {
 		return movieId;
